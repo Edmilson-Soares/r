@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>São Tomé e Príncipe (Chat)</title>
+    <title>Chat_School</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -12,11 +12,12 @@
     <section class="chat__section">
         <div class="brand">
             <img height="40" src="./wassup.png" alt="">
-            <h1>STP.Chat</h1>
+            <h1 id="a">Chat</h1>
         </div>
         <div class="message__area"></div>
-        <div>
+        <div style="display:flex">
             <textarea id="textarea" cols="30" rows="1" placeholder="Escreva a sua mensagem para o grupo"></textarea>
+            <button id="enviar">Enviar</button>
         </div>
     </section>
     <script src="/socket.io/socket.io.js"></script>
